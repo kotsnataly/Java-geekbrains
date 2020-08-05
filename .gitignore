@@ -1,2 +1,9 @@
 # Project exclude paths
+<<<<<<< HEAD
 /target/
+=======
+/target/
+.idea
+java-oop-at.iml
+logs
+>>>>>>> 9af34870ac322ac6f186fff35074ed6f5e8bf9cf
