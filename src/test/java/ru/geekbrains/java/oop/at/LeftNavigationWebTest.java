@@ -20,7 +20,7 @@ import static ru.geekbrains.java.oop.at.block.LeftNavigation.Button;
 public class LeftNavigationWebTest extends BeforeAndAfterStep {
 
     @Description("Тесты которые проверяют функционал без Pop-UP")
-    @DisplayName("Нажатие на элемент навагации")
+    @DisplayName("Нажатие на элемент навигации")
     @ParameterizedTest(name = "{index} => Нажатие на: {0}")
     @MethodSource("stringProviderNotPopUp")
     public void checkNavigationNotPopUp(Button button) {
